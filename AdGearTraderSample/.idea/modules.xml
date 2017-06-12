@@ -3,18 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AdGearTraderSample.iml" filepath="$PROJECT_DIR$/AdGearTraderSample.iml" />
-      <module fileurl="file://$PROJECT_DIR$/AdGearTraderSample.iml" filepath="$PROJECT_DIR$/AdGearTraderSample.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/consolead/consolead.iml" filepath="$PROJECT_DIR$/consolead/consolead.iml" />
-      <module fileurl="file://$PROJECT_DIR$/consolead/consolead.iml" filepath="$PROJECT_DIR$/consolead/consolead.iml" />
-      <module fileurl="file://$PROJECT_DIR$/eventmanager/eventmanager.iml" filepath="$PROJECT_DIR$/eventmanager/eventmanager.iml" />
       <module fileurl="file://$PROJECT_DIR$/eventmanager/eventmanager.iml" filepath="$PROJECT_DIR$/eventmanager/eventmanager.iml" />
       <module fileurl="file://$PROJECT_DIR$/mraidwebview/mraidwebview.iml" filepath="$PROJECT_DIR$/mraidwebview/mraidwebview.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mraidwebview/mraidwebview.iml" filepath="$PROJECT_DIR$/mraidwebview/mraidwebview.iml" />
       <module fileurl="file://$PROJECT_DIR$/spotview/spotview.iml" filepath="$PROJECT_DIR$/spotview/spotview.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spotview/spotview.iml" filepath="$PROJECT_DIR$/spotview/spotview.iml" />
-      <module fileurl="file://$PROJECT_DIR$/traderad/traderad.iml" filepath="$PROJECT_DIR$/traderad/traderad.iml" />
       <module fileurl="file://$PROJECT_DIR$/traderad/traderad.iml" filepath="$PROJECT_DIR$/traderad/traderad.iml" />
     </modules>
   </component>
