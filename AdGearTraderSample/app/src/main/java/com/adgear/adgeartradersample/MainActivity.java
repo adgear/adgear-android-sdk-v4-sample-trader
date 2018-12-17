@@ -16,6 +16,8 @@ public class MainActivity extends AppCompatActivity {
 
     private AGSpotView spotView;
 
+    private final static String APP_TAG_ID = "APP_TAG_ID";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,8 +36,8 @@ public class MainActivity extends AppCompatActivity {
         RelativeLayout.LayoutParams layoutParamsSpot = (RelativeLayout.LayoutParams) this.spotView.getLayoutParams();
         layoutParamsSpot.addRule(RelativeLayout.CENTER_IN_PARENT);
 
-        // Request and make a spot view ad asynchronously (with siteTagId, with, and height)
-        AGTraderAdFactory.makeSpotViewAdWithSiteTagId("f01c006da30145cfbe4841043735f21b", 300, 250, new AGECompletionHandler<AGSpotViewAd<AGTraderAdModel>, Void>() {
+        // Request and make a spot view ad asynchronously (with appTagId, with, and height)
+        AGTraderAdFactory.makeSpotViewAdWithAppTagId(APP_TAG_ID, 300, 250, new AGECompletionHandler<AGSpotViewAd<AGTraderAdModel>, Void>() {
             @Override
             public void completed(AGSpotViewAd<AGTraderAdModel> ad, Void aVoid, Exception exception) {
 
